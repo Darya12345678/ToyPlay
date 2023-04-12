@@ -30,7 +30,8 @@ public class ReceivingToy {
     public List<Toy> findToy(String name){
         List<Toy> foundToy = new ArrayList<>();
         for(Toy toy : localList){
-            {
+            if(toy.getName().contains(name)){
+            
                 foundToy.add(toy);
             }
         }
