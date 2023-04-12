@@ -1,1 +1,5 @@
-Выдана игрушка: JackieChanDoll
+SnakeВыдана игрушка: JackieChanDoll
+Выдана игрушка: Snake
+Выдана игрушка: SocketsToy
+Выдана игрушка: UFO
+Выдана игрушка: SocketsToy
