@@ -1,4 +1,4 @@
-SnakeВыдана игрушка: JackieChanDoll
+Выдана игрушка: JackieChanDoll
 Выдана игрушка: Snake
 Выдана игрушка: SocketsToy
 Выдана игрушка: UFO
