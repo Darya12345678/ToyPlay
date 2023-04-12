@@ -44,10 +44,10 @@ public class Main {
                 if(index < 0) {
                     
                 System.out.println("Выдана игрушка: " + receiving.outputToy(receiving.findToy(number[i]).get(0)));
-                try(FileWriter writer = new FileWriter("notes.txt", false))
+                try(FileWriter writer = new FileWriter("notes.txt", true))
         {
-            String text = "Выдана игрушка: " + number[i];
-            writer.write(text);
+            String text = "Выдана игрушка: " +number[i] + "\n";
+            writer.write(text, 0, text.length());
             writer.flush();
         }
         catch(IOException ex){
@@ -57,7 +57,7 @@ public class Main {
 
                 break;
             }
-            
+           
             
         }
        }
