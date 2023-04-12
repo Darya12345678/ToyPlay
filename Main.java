@@ -46,7 +46,6 @@ public class Main {
                 System.out.println("Выдана игрушка: " + receiving.outputToy(receiving.findToy(number[i]).get(0)));
                 try(FileWriter writer = new FileWriter("notes.txt", false))
         {
-           // запись всей строки
             String text = "Выдана игрушка: " + number[i];
             writer.write(text);
             writer.flush();
