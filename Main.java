@@ -23,8 +23,8 @@ public class Main {
 
 
     
-        String[] number = new String[] {"Pigeon", "Fish", "Spider", "Kakapo", "AfroBarbie", "Snake", "JackieChanDoll", "SocketsToy", "UFO", "NunChaku"}; // Числа
-        int[] chance = new int[] {5, 5, 5, 5, 1, 5, 5, 4, 7, 10}; // Количество выпаданий чисел
+        String[] number = new String[] {"Pigeon", "Fish", "Spider", "Kakapo", "AfroBarbie", "Snake", "JackieChanDoll", "SocketsToy", "UFO", "NunChaku"}; // Игрушки
+        int[] chance = new int[] {5, 5, 5, 5, 1, 5, 5, 4, 7, 10}; // Количество выпаданий игрушки
 
         int count = IntStream.of(chance).sum(); // Подсчёт количества элементов списка
 
